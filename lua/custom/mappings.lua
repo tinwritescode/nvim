@@ -69,6 +69,7 @@ M.lspconfig = {
       "<cmd>Lspsaga close_floaterm<CR>",
       "Lspsaga close_floaterm",
     },
+    ["<leader>ca"] = { "<cmd>Lspsaga code_action<CR>", "Code action" },
   },
 }
 
