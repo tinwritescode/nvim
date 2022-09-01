@@ -32,6 +32,15 @@ M.custom = {
       "SymbolsOutline toggle",
     },
   },
+
+  t = {
+    ["<M-g>"] = {
+      function()
+        require("nvterm.terminal").send("lazygit", "vertical")
+      end,
+      "lazygit",
+    },
+  },
 }
 
 M.lspconfig = {
@@ -62,10 +71,6 @@ M.lspconfig = {
       "Lspsaga goto_next",
     },
     ["K"] = { "<cmd>Lspsaga hover_doc<CR>", "Lspsaga hover_doc" },
-    ["<C-\\><C-n>"] = {
-      "<cmd>Lspsaga close_floaterm<CR>",
-      "Lspsaga close_floaterm",
-    },
     ["<leader>ca"] = { "<cmd>Lspsaga code_action<CR>", "Code action" },
   },
 }
