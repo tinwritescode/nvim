@@ -51,4 +51,10 @@ return {
       require("hop").setup { keys = "etovxqpdygfblzhckisuran" }
     end,
   },
+  ["f-person/git-blame.nvim"] = {},
+  ["glepnir/lspsaga.nvim"] = {
+    config = function()
+      require "custom.plugins.lspsaga"
+    end,
+  },
 }

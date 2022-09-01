@@ -1,6 +1,5 @@
 local pluginConfs = require "custom.plugins.configs"
 
--- Just an example, supposed to be placed in /lua/custom/
 local M = {}
 
 M.plugins = {
