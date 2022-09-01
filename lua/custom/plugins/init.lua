@@ -57,4 +57,9 @@ return {
       require "custom.plugins.lspsaga"
     end,
   },
+  ["simrat39/symbols-outline.nvim"] = {
+    config = function()
+      require "custom.plugins.symbols-outline"
+    end,
+  },
 }
