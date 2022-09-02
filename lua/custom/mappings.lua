@@ -31,6 +31,19 @@ M.custom = {
       "<cmd>SymbolsOutline<CR>",
       "SymbolsOutline toggle",
     },
+
+    -- tab next, tab prev
+    ["<leader>tn"] = {
+      "<cmd>tabNext<CR>",
+      "Tab Next",
+    },
+    ["<leader>tp"] = {
+      "<cmd>tabPrev<CR>",
+      "Tab Prev",
+    },
+    ["<leader>tN"] = {
+      "<cmd>tabnew<CR>",
+    },
   },
 
   t = {

@@ -3,6 +3,7 @@ return {
     config = function()
       require "plugins.configs.lspconfig"
       require "custom.plugins.lspconfig"
+      require "custom.plugins.prettier"
     end,
   },
   ["github/copilot.vim"] = {
@@ -61,5 +62,10 @@ return {
     config = function()
       require "custom.plugins.symbols-outline"
     end,
+  },
+  ["MunifTanjim/prettier.nvim"] = {
+    -- config = function()
+    --   require "custom.plugins.prettier"
+    -- end,
   },
 }
