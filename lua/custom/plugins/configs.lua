@@ -18,6 +18,14 @@ M.treesitter = {
     "typescript",
     "vim",
     "yaml",
+    "org",
+  },
+  context_commentstring = {
+    enable = true,
+  },
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting = { "org" }, -- Required for spellcheck, some LaTex highlights and code block highlights that do not have ts grammar
   },
 }
 

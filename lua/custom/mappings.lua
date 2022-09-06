@@ -44,6 +44,12 @@ M.custom = {
     ["<leader>tN"] = {
       "<cmd>tabnew<CR>",
     },
+    ["<F9>"] = {
+      "<cmd>tabmove -1<CR>",
+    },
+    ["<F10>"] = {
+      "<cmd>tabmove +1<CR>",
+    },
   },
 
   t = {
