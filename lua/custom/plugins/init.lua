@@ -74,4 +74,11 @@ return {
     end,
   },
   ["JoosepAlviste/nvim-ts-context-commentstring"] = {},
+  ["jose-elias-alvarez/typescript.nvim"] = {},
+  ["nvim-lua/plenary.nvim"] = {},
+  ["akinsho/flutter-tools.nvim"] = {
+    config = function()
+      require "custom.plugins.flutter-tools"
+    end,
+  },
 }

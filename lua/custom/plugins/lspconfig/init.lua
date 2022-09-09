@@ -3,8 +3,18 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers =
-  { "html", "cssls", "clangd", "tsserver", "tailwindcss", "solidity_ls", "prismals", "emmet_ls", "rust_analyzer" }
+local servers = {
+  "html",
+  "cssls",
+  "clangd",
+  "tsserver",
+  "tailwindcss",
+  "solidity_ls",
+  "prismals",
+  "emmet_ls",
+  "rust_analyzer",
+  "solang",
+}
 
 lspconfig.emmet_ls.setup {
   -- on_attach = on_attach,

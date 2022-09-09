@@ -50,6 +50,18 @@ M.custom = {
     ["<F10>"] = {
       "<cmd>tabmove +1<CR>",
     },
+    ["<leader>ru"] = {
+      function()
+        require("typescript").actions.removeUnused()
+      end,
+    },
+    ["<leader>fc"] = {
+      function()
+        require("telescope").extensions.flutter.commands()
+      end,
+      "Flutter Commands",
+    },
+    ["<leader>ca"] = { "<cmd>Lspsaga code_action<CR>", "Code action" },
   },
 
   t = {

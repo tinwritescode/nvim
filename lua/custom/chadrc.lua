@@ -6,7 +6,7 @@ M.plugins = {
   user = require "custom.plugins",
   override = {
     ["nvim-telescope/telescope.nvim"] = {
-      extensions_list = { "themes", "terms", "persisted" },
+      extensions_list = { "themes", "terms", "persisted", "flutter" },
     },
     ["nvim-treesitter/nvim-treesitter"] = pluginConfs.treesitter,
   },
