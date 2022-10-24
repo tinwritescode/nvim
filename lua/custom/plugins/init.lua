@@ -27,9 +27,7 @@ return {
   ["kylechui/nvim-surround"] = {
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features
     config = function()
-      require("nvim-surround").setup {
-        -- Configuration here, or leave empty to use defaults
-      }
+      require("nvim-surround").setup {}
     end,
   },
   ["jose-elias-alvarez/null-ls.nvim"] = {
@@ -79,6 +77,11 @@ return {
   ["akinsho/flutter-tools.nvim"] = {
     config = function()
       require "custom.plugins.flutter-tools"
+    end,
+  },
+  ["barklan/capslock.nvim"] = {
+    config = function()
+      require "custom.plugins.capslock-nvim"
     end,
   },
 }

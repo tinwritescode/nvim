@@ -10,8 +10,8 @@ local sources = {
 
   -- webdev stuff
   -- b.formatting.deno_fmt,
-  -- b.formatting.prettier,
-  b.formatting.prettierd,
+  b.formatting.prettier,
+  -- b.formatting.prettierd,
   b.diagnostics.standardjs,
 
   -- Lua

@@ -16,8 +16,8 @@ M.custom = {
     },
 
     ["<M-n>"] = {
-      "<cmd>HopLineMW<cr>",
-      "HopLineMW",
+      "<cmd>HopWordMW<cr>",
+      "HopWordMW",
     },
 
     ["<M-g>"] = {
@@ -62,6 +62,7 @@ M.custom = {
       "Flutter Commands",
     },
     ["<leader>ca"] = { "<cmd>Lspsaga code_action<CR>", "Code action" },
+    ["<leader>ps"] = { "<cmd>Telescope persisted<CR>" },
   },
 
   t = {
@@ -78,11 +79,11 @@ M.lspconfig = {
   n = {
     ["gh"] = { "<cmd>Lspsaga lsp_finder<CR>", "Lspsaga lsp_finder" },
     ["gr"] = { "<cmd>Lspsaga rename<CR>", "Lspsaga rename" },
-    ["gd"] = { "<cmd>Lspsaga preview_definition<CR>", "Lspsaga preview_definition" },
-    ["<leader>cd"] = {
-      "<cmd>Lspsaga show_line_diagnostics<CR>",
-      "Lspsaga show_line_diagnostics",
-    },
+    ["gd"] = { "<cmd>Lspsaga peek_definition<CR>", "Lspsaga peek_definition" },
+    -- ["<leader>cd"] = {
+    --   "<cmd>Lspsaga show_line_diagnostics<CR>",
+    --   "Lspsaga show_line_diagnostics",
+    -- },
     ["<leader>cd"] = {
       "<cmd>Lspsaga show_cursor_diagnostics<CR>",
       "Lspsaga show_cursor_diagnostics",

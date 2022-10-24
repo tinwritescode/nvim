@@ -14,8 +14,27 @@ vim.api.nvim_create_autocmd("Filetype", {
 })
 
 local options = {
-  ensure_installed = { "lua-language-server" }, -- not an option from mason.nvim
+  ensure_installed = {
+    -- lua stuff
+    "lua-language-server",
+    "stylua",
 
+    -- web dev
+    "css-lsp",
+    "html-lsp",
+    "typescript-language-server",
+    "emmet-ls",
+    "json-lsp",
+
+    -- shell
+    "shfmt",
+    "shellcheck",
+
+    -- rust
+    "rust-analyzer",
+
+
+  },
   ui = {
     icons = {
       package_pending = " ",
