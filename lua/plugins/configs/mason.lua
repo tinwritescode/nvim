@@ -32,9 +32,9 @@ local options = {
 
     -- rust
     "rust-analyzer",
-
-
   },
+  PATH = "skip",
+
   ui = {
     icons = {
       package_pending = " ",
