@@ -87,4 +87,9 @@ return {
   ["simrat39/rust-tools.nvim"] = {
     config = function() end,
   },
+  ["mhartington/formatter.nvim"] = {
+    config = function()
+      require "custom.plugins.formatter"
+    end,
+  },
 }
