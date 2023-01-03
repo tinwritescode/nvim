@@ -84,4 +84,7 @@ return {
       require "custom.plugins.capslock-nvim"
     end,
   },
+  ["simrat39/rust-tools.nvim"] = {
+    config = function() end,
+  },
 }

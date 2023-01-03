@@ -14,6 +14,7 @@ local servers = {
   "emmet_ls",
   "rust_analyzer",
   "solang",
+  "eslint",
 }
 
 lspconfig.emmet_ls.setup {

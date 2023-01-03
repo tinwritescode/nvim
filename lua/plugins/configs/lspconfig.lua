@@ -64,4 +64,6 @@ lspconfig.sumneko_lua.setup {
   },
 }
 
+require "custom.plugins.rust-tools"
+
 return M
