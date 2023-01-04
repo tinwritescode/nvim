@@ -63,6 +63,13 @@ M.custom = {
     },
     ["<leader>ca"] = { "<cmd>Lspsaga code_action<CR>", "Code action" },
     ["<leader>ps"] = { "<cmd>Telescope persisted<CR>" },
+
+    ["<leader>xx"] = { "<cmd>TroubleToggle<CR>", "Toggle trouble" },
+    ["<leader>xw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", "Workspace diagnostics" },
+    ["<leader>xd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", "Document diagnostics" },
+    ["<leader>xl"] = { "<cmd>TroubleToggle loclist<cr>" },
+    ["<leader>xq"] = { "<cmd>TroubleToggle quickfix<cr" },
+    ["gR"] = { "<cmd>TroubleToggle lsp_references<cr>" },
   },
 
   t = {

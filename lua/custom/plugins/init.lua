@@ -92,4 +92,9 @@ return {
       require "custom.plugins.formatter"
     end,
   },
+  ["folke/trouble.nvim"] = {
+    config = function()
+      require "custom.plugins.trouble"
+    end,
+  },
 }

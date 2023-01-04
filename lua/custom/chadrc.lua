@@ -54,7 +54,7 @@ M.plugins = {
 }
 
 M.ui = {
-  theme = "gruvchad",
+  theme = "ayu-dark",
 }
 
 M.mappings = require "custom.mappings"
